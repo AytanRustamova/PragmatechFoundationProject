@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.logoAndBannerAd{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.logo{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    
+}
+
+.futureBannerAd{
+    width: 600px;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.navbarSection{
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px;
+
+}
+
+.navbarSection a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mainFlexBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftColumnCards{
+    margin: 10px;
+    width: 620px;
+    
+}
+
+.dealOfWeek{
+    height: 200px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+    
+}
+
+.partners{
+    height: 250px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+
+.categorizedDeals{
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+
+.centerColumnCards{
+    margin: 10px;
+    width: 300px;
+}
+
+.signUp{
+    height: 375px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.pets{
+    height: 387px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+
+.rightColumnCards{
+    margin: 10px;
+    width: 350px;
+}
+
+.descriptions{
+   
+    height: 180px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+
+.blogPost{
+    height: 280px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.discussionSide{
+    width: 350px;
+    height: 288px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+
+.footerSection{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px;
+    background-color: gray;
+}
