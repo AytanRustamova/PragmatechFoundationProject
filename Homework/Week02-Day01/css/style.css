@@ -1,0 +1,36 @@
+.col-4{
+    background-color: black;
+    color: #fff;
+    height: 100px;
+    margin: 5px;
+}
+
+
+.col-6{
+    background-color: yellow;
+    color: black;
+    height: 150px;
+    margin: 5px;
+}
+
+
+.col-3{
+    background-color: black;
+    color: red;
+    height: 149px;
+    margin: 5px;
+    border: chartreuse;
+}
+
+
+.bg-color{
+    background-color: blue;
+    color: black;
+}
+
+
+.bg-color-2{
+    background-color: blue;
+    border: 1px solid red;
+    color: yellow;
+}

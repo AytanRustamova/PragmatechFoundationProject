@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+p,a,h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins" , sans-serif;
+}
+
+a{
+    color: #fff;
+    
+}
+
+li{
+    list-style: none;
+}
+
+/* Header Section */
+.nv-topSection{
+    background: linear-gradient(
+        45deg
+        , #0E90D5, #3032A2) !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.locAndMail{
+   margin-right: 50px;
+}
+
+
+.loc{
+    margin-right: 25px;
+}
+
+.socialMedia{
+    
+    margin-right: 25px;
+}
+
+.socialMedia a{
+    margin-right: 15px;
+}
+
+
+.socialAndLang{
+    margin-left: 15rem;
+}
+
+
+.language a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+
+/* Navbar Section */
+.nv-nav-links{
+    display: flex;
+    padding: 20px 0;
+    height: 140px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    height: 60px;
+    
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.main-logo img{
+    width: 210px;
+} 
+
+
+/* Services Section */
+
+#services{
+    padding-top: 4rem ;
+    background: url('../css/img/abs-bg7.png');
+    background-color: #F7F8FC;
+}
+
+.services-header{
+    display: flex;
+}
+
+.blue-border{
+    width: 8px;
+    height: 70px;
+    background-color: #0c59db;
+    margin-right:  20px;
+    margin-left: 20px;
+}
+
+.services-header-content h4{
+    color: #0c59db;
+    
+}
+
+.services-header-content h2{
+    font-size: 35px;
+    color: #151a33;
+}
+
+.services-content{
+    margin-left: 10rem;
+    width: 70%;
+}
+
+.services-content p{
+    
+    color: gray;
+    line-height: 1.8em;
+}
+
+
+.services-item{
+    
+    margin: 50px 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    height: 270px;
+    
+}
+
+.services-item img{
+    width: 65px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Teams Section */
+
+.bg-main{
+    background: url(../css/img/5.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 5rem;
+}
+
+.teams-header-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-header-border{
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.teams-header  {
+    text-align: center;
+    color: #fff;
+}
+
+.teams-header h2{
+    font-size: 40px;
+}
+
+.teams-item{
+    margin-top: 4rem;
+    padding: 10px;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+.teams-item p{
+    color: #0c59db;
+}
+
+.teams-item img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.teams-item-footer img{
+    margin-right: 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
