@@ -141,6 +141,15 @@ nav ul li a{
     
 }
 
+.services-item:hover{
+    background: url(../css/img/1\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+
+}
+
 .services-item img{
     width: 65px;
     margin-bottom: 1rem;
