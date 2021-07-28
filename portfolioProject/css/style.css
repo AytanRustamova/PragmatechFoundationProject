@@ -73,6 +73,30 @@ body::after{
     text-transform: uppercase;
 }
 
+
+.navbar-links ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+
+.navbar-ul a{
+    margin: 0 15px;
+    color: #fff;
+    font-weight: 200;
+}
+
+
+.navbar-ul a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+
+/* 
 .burger-menu{
     display: flex;
     flex-direction: column;
@@ -87,7 +111,7 @@ body::after{
     height: 3px;
     background-color: #fff;
     margin: 5px 0;
-}
+} */
 
 
 
@@ -223,7 +247,7 @@ body::after{
     .skills-grid ul{
         padding: 0;
         display: grid;
-       grid-template-columns: repeat(5, 250px);
+       grid-template-columns: repeat(5, 223px);
        grid-row-gap: 75px;
     }
 
@@ -232,14 +256,17 @@ body::after{
         text-align: center;
     }
 
-    .skills-grid-items img{
-        width: 120px;
-        height: 100px;
-        object-fit: cover;
+    .skills-grid-item-image{
+        width: 100%;
     }
 
+    /* .skills-grid-items img{
+      
+        object-fit: cover;
+    } */
+
     .skills-grid-items p{
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: #fff;
         text-transform: uppercase;
         letter-spacing: 6px;
@@ -432,7 +459,9 @@ body::after{
     font-weight: 300;
 }
 
-  
+
+
+
 
 
 
