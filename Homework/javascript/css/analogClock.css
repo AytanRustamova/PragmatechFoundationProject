@@ -1,0 +1,43 @@
+.bigCircle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.littleCircle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+.firstLine{
+    position: relative;
+    top: 22%;
+    width: 3px;
+    height: 148px;
+    background-color: red;
+}
+
+.secondLine{
+    position: relative;
+    top: 17%;
+    width: 3px;
+    height: 101px;
+    background-color: green;
+}
+
+.thirdLine{
+    position: relative;
+    top: 15%;
+    width: 3px;
+    height: 72px;
+    background-color: blue;
+
+}

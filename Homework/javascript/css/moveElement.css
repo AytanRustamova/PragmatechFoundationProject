@@ -1,0 +1,54 @@
+#moveElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+
+
+
+.movedBox{
+    width: 30px;
+    height: 20px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 5rem;
+}
+
+
+.left{
+    position: relative;
+    right: 41px;
+}
+
+
+.right{
+    position: relative;
+    top: -20px;
+    left: 33px;
+}
+
+.down{
+    position: relative;
+    bottom: 18px;
+    right: 8px;
+}
+
+
+#moveElementToUp{
+    margin-top: 20px;
+    /* display: none; */
+}
+
+.moveElementToRight{
+    margin-right: 20px;
+}
+
+.moveElementToLeft{
+    margin-left: 20px;
+}
+
+.moveElementToDown{
+    margin-bottom: 20px;
+}
