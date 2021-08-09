@@ -7,27 +7,28 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/layouts.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <!-- <link rel="stylesheet" href="css/layouts.css"> -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Aytan Rustamzada</title>
     
 
 </head>
-<body>
-
+<body  onload="mySlide()">
+    
     <!-- Header Section start -->
     <section id="top-main">
         <div class="container">
             <header>
-                <div class="row flex-between">
+                <div class="row">
                         <div class="col-5">
                                 <div class="top-name">
                                     <img src="css/img/me-Image.jpg" alt="">
                                     <p>Aytan Rustamzada</p>
                                 </div>
                         </div>
-                        <div class="col-7">
+                        <div class="col-7 ">
                             <nav class="navbar-links">
                                 <ul class="navbar-ul">
                                     <li><a href="">Home</a></li>
@@ -38,12 +39,24 @@
                                 </ul>
                             </nav>
                         </div>
+                            
+                                <div class="burger-menu">
+                                    <div class="line">
+                                       <ul>
+                                           <li></li>
+                                           <li></li>
+                                           <li></li>
+                                       </ul>
+                                    </div>
+                                </div>
+                            
+                        
                 </div>
             </header>
             <div class="row">
                 <div class="col-12">
-                    <div class="main-content">
-                        <p>Hello I'm</p>
+                    <div class="slide main-content" >
+                        <p >Hello I'm</p>
                         <h1>Aytan Rustamzada</h1>
                     </div>
                 </div>
@@ -60,42 +73,51 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <div class="about-image">
-                        <img src="css/img/me-Image.jpg" alt="">
+
+                <div class="col-12">
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <img src="css/img/me-Image.jpg" alt="">
+                        </div>
+
+                        <div class="about-content">
+                            <h2>About</h2>
+                            <div class="content-p">
+                                <h4>Hi! I'm Aytan Rustamzada</h4>
+                                <p>I am 21. I am frontend developer. I study at Azerbaijan State Economic Univesity and Pragmatech Education center. I have 5 month of exprience at HTML, CSS, JS, PHP, Laravel, SQL. I can make single blog website, ecommerce, responsive design and more. For more information, you can contact me or check out my works.  </p>
+                                <p class="specColor">Checkout my resume</p>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+    
+                                <h5>Contact me here!</h5>
+                                <p>Email: <span class="specColor">aytanrustamzada@gmail.com</span></p>
+                                <p>Phone: <span class="specColor">+994 51 900 99 96 </span></p>
+                            </div>
+                            
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="about-content">
-                        <h2>About</h2>
-                        <div class="content-p">
-                            <h4>Hi! I'm Aytan Rustamzada</h4>
-                            <p>I am 21. I am frontend developer. I study at Azerbaijan State Economic Univesity and Pragmatech Education center. I have 5 month of exprience at HTML, CSS, JS, PHP, Laravel, SQL. I can make single blog website, ecommerce, responsive design and more. For more information, you can contact me or check out my works.  </p>
-                            <p class="specColor">Checkout my resume</p>
-                            <ul>
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                            </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <h5>Contact me here!</h5>
-                            <p>Email: <span class="specColor">aytanrustamzada@gmail.com</span></p>
-                            <p>Phone: <span class="specColor">+994 51 900 99 96 </span></p>
-                        </div>
-                        
-                    </div>
+                   
+                </div>
+                <div class="col-6">
+                   
                 </div>
             </div>
 
@@ -202,38 +224,38 @@
             </div>
 
             <div class="row">
-                <div class="col-6">
-                    <div class="works-item-image">
-                        <img src="css/img/project1.webp" alt="">
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="works-item-content">
-                        <h2>Even the all-powerful Pointing has no control</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis libero unde animi provident deleniti optio, molestiae, minus earum sequi consequuntur iure numquam, enim praesentium? Eaque repellendus ut aliquam. Aut.</p>
-                        <a class="specColor" href="#">View Project</a>
+
+                    <div class="col-12">
+                        <div class="works-grid">
+                            <div class="works-item-image">
+                                <img src="css/img/project1.webp" alt="">
+                            </div>
+
+                            <div class="works-item-content">
+                                <h2>Even the all-powerful Pointing has no control</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis libero unde animi provident deleniti optio, molestiae, minus earum sequi consequuntur iure numquam, enim praesentium? Eaque repellendus ut aliquam. Aut.</p>
+                                <a class="specColor" href="#">View Project</a>
+                            </div>
+
+                            <div class="works-item-image">
+                                <img src="css/img/project3.webp" alt="">
+                            </div>
+
+                            <div class="works-item-content">
+                                <h2>Even the all-powerful Pointing has no control</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis libero unde animi provident deleniti optio, molestiae, minus earum sequi consequuntur iure numquam, enim praesentium? Eaque repellendus ut aliquam. Aut.</p>
+                                <a class="specColor" href="#">View Project</a>
+                            </div>
+
+                            
+
+
+                        </div>
                     </div>
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="works-item-content">
-                        <h2>Even the all-powerful Pointing has no control</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis libero unde animi provident deleniti optio, molestiae, minus earum sequi consequuntur iure numquam, enim praesentium? Eaque repellendus ut aliquam. Aut.</p>
-                        <a class="specColor" href="#">View Project</a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="works-item-image">
-                        <img src="css/img/project3.webp" alt="">
-                    </div>
-                </div>
-              
-
-                </div>
             </div>
         </div>
+    </div>
             
     </section>
     <!-- WOrks Section End -->
@@ -251,68 +273,68 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
-                    <div class="blog-content-items">
-                        <div class="blog-content-image">
-                            <img src="css/img/blogphoto1.webp" alt="">
+            
+                <div class="col-12">
+                    <div class="grid-blog">
+                        <div class="blog-content-items">
+                            <div class="blog-content-image">
+                                <img src="css/img/blogphoto3.webp" alt="">
+                            </div>
+                            <div class="blog-content-text">
+                                <div class="details-text">
+                                    <a href="">July 12, 2020  Admin</a>
+                                    <a href=""> <i class="far fa-comments"></i></a>
+                                    <a href="">3</a>
+                                </div>
+    
+                                <div class="text">
+                                    <h3><a href="">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
+                                    </a></h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog-content-text">
-                            <div class="details-text">
-                                <a href="">July 12, 2020  Admin</a>
-                                <a href=""> <i class="far fa-comments"></i></a>
-                                <a href="">3</a>
-                            </div>
 
-                            <div class="text">
-                                <h3><a href="">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
-                                </a></h3>
+                        <div class="blog-content-items">
+                            <div class="blog-content-image">
+                                <img src="css/img/blogphoto2.webp" alt="">
                             </div>
+                            <div class="blog-content-text">
+                                <div class="details-text">
+                                    <a href="">July 12, 2020  Admin</a>
+                                    <a href=""> <i class="far fa-comments"></i></a>
+                                    <a href="">3</a>
+                                </div>
+    
+                                <div class="text">
+                                    <h3><a href="">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
+                                    </a></h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="blog-content-items">
+                            <div class="blog-content-image">
+                                <img src="css/img/blogphoto1.webp" alt="">
+                            </div>
+                            <div class="blog-content-text">
+                                <div class="details-text">
+                                    <a href="">July 12, 2020  Admin</a>
+                                    <a href=""> <i class="far fa-comments"></i></a>
+                                    <a href="">3</a>
+                                </div>
+    
+                                <div class="text">
+                                    <h3><a href="">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
+                                    </a></h3>
+                                </div>
+                            </div>
+    
                         </div>
 
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="blog-content-items">
-                        <div class="blog-content-image">
-                            <img src="css/img/blogphoto2.webp" alt="">
-                        </div>
-                        <div class="blog-content-text">
-                            <div class="details-text">
-                                <a href="">July 12, 2020  Admin</a>
-                                <a href=""> <i class="far fa-comments"></i></a>
-                                <a href="">3</a>
-                            </div>
-
-                            <div class="text">
-                                <h3><a href="">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
-                                </a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-4">
-                    <div class="blog-content-items">
-                        <div class="blog-content-image">
-                            <img src="css/img/blogphoto3.webp" alt="">
-                        </div>
-                        <div class="blog-content-text">
-                            <div class="details-text">
-                                <a href="">July 12, 2020  Admin</a>
-                                <a href=""> <i class="far fa-comments"></i></a>
-                                <a href="">3</a>
-                            </div>
-
-                            <div class="text">
-                                <h3><a href="">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, deleniti nesciunt expedita obcaecati similique porro delectus
-                                </a></h3>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -353,6 +375,10 @@
             </div>
         </footer>
     <!-- Footer Section End -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
 
 </body>
 </html>

@@ -2,3 +2,7 @@
     font-size: 4em;
 }
 
+.ds-flex{
+    display: flex;
+    justify-content: center;
+}
