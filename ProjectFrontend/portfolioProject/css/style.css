@@ -61,7 +61,6 @@ header{
 
  .sticky{
     background-color: #fff;
-    
 }
 
 .sticky p{
@@ -77,10 +76,9 @@ header{
     border-bottom: 1px solid #121212;
 }
 
-
-
-
-
+.sticky .line ul li {
+    background-color: #121212;
+}
 
 .top-name{
     display: flex;
@@ -98,6 +96,7 @@ header{
     top: 0px;
     transition: all 2s linear;
     opacity: 0;
+    z-index: -1;
 }
 
 
@@ -106,6 +105,7 @@ header{
     top: 0px;
     transition: all 2s linear;
     opacity: 0;
+    z-index: -1;
 }
 .top-name img{
     width: 60px;
@@ -133,7 +133,6 @@ header{
     font-size: 1.3em;
 }
 
-
 .navbar-ul a{
     margin: 0 15px;
     color: #fff;
@@ -146,7 +145,13 @@ header{
 }
 
 
-
+/* .line{
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    height:  94px;
+    justify-content: center;
+} */
 
 .burger-menu{
     display: none;
@@ -156,6 +161,34 @@ header{
     justify-content: center;
     
 }
+.toggle-menu{
+    position: fixed;
+    display: none;
+    width: 100%;
+    right: 0;
+    
+}
+.toggle-menu ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* align-items: center; */
+}
+
+.toggle-menu ul li{
+    margin: 20px auto;
+}
+
+.toggle-menu ul li a{
+    font-size: 2.5em;
+    color: #121212;
+    font-weight: 700;
+    
+}
+
  .line ul li{
     
     width: 33px;
@@ -192,6 +225,10 @@ header{
  .slide p{
     margin-top: 14rem;
 }
+::-webkit-scrollbar{
+    width: 0;
+}
+
 
 /* Section About */
     #about{
@@ -203,8 +240,9 @@ header{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .about-image{
+    .about-image {
         width: 350px;
+        z-index: -1;
         
     }
     .about-image img{
@@ -212,6 +250,8 @@ header{
         height: 600px;
         margin-top: 4rem;
         object-fit: cover;
+        transform: translateX(-140%);
+        transition: all 1s ease;
     }
     .about-content{
         position: relative;
@@ -524,8 +564,6 @@ header{
     font-size: 2.5em;
     color: #fff;
     font-weight: 400;
-    
-
 }
 
 .copyright{
@@ -536,16 +574,14 @@ header{
 }
 
 
-
-
-
-
 @media screen and (max-width:1024px){
     .burger-menu{
         display: flex;
         justify-content: center;
         width: 50%;
     }
+
+    
 
     .col-7{
         display: none;
@@ -582,6 +618,8 @@ header{
     .works-item-content p{
         font-size: 1.3em;
     }
+
+   
 
 }
 
