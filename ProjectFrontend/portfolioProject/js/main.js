@@ -41,9 +41,6 @@ window.addEventListener("scroll" , () => {
         aboutImg.style.transform= 'translateX(0%)';
         
     },1000)
-
-   
-    
 });
 
 
@@ -66,9 +63,6 @@ burgerMenuLine.addEventListener('click',() =>{
         document.querySelector("body").style.background='rgba(0, 0, 0, 1)';
         menuStatus=true;
     }
-
-
-    
 
 })
 
