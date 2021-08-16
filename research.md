@@ -60,3 +60,22 @@ Task'in cavablari:
 5. Javascript programlasdirma dili client-side dil oldugu ucun Node.js yuklemeden localda js file'i acmaq olmaz.  Client side ile server side'n esas ferqi de odur ki, server-side'da code serverde run olunur. client-side'da ise istifadecinin browserinde. Js ile de biz gorunus dinamikliyini temin etdiyimiz ucun, js file'larini browserde aciriq.
 
 6. Javascript operatorlarindan istifade ederken birinci tipine baxmaliyiq, hansi tiple hansi tipi hansi operatorla istifade edeceyik. meselen string ve number'in + operatoru ile davranisi ferqlidir  number ve number'n davranisi ferqli. 
+   
+
+
+
+
+men hec ne import etmesem, python'nun sadece built in functionlari isleyecek?
+WSGI ne ise yarayir, tercumecilerden ferqi nedir.
+web server ozu nece isleyir, web server kodumuzu basa dussun deye istifade edirikse, web server kodumuzu nece oxuyur?
+
+
+
+
+Python research.
+
+1. Python module və package nədir? Necə istifadə olunur?
+2. 2. web server insanlarin paylasimlarinin qarismamasi ucundu daha cox bir baxima.bir yer kiralayirsan orda ancaq sene aid olur her sey.
+4. web server internetde kiraladiginiz yerdi. wsgi ise web serverin kodunuzu basa dusmeyi ucun vesaitdir.
+5. http request brauser ve serverin tekterefli elage sistemidir.
+
