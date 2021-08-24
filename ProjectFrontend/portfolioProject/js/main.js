@@ -54,11 +54,10 @@ burgerMenuLine.addEventListener('click',() =>{
    
     if(menuStatus){
         toggleMenu.style.display = 'block';
-        document.querySelector("body").style.background='rgba(255, 255, 255, 0.1)';
-        document.querySelector("body").style.opacity='1';
+        toggleMenu.style.background='rgba(255, 255, 255, 0.1)';
+        toggleMenu.style.opacity='1';
         menuStatus=false;
     } else{
-        console.log('salam da salam')
         toggleMenu.style.display = 'none';
         document.querySelector("body").style.background='rgba(0, 0, 0, 1)';
         menuStatus=true;

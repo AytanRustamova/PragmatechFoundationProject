@@ -79,3 +79,11 @@ Python research.
 4. web server internetde kiraladiginiz yerdi. wsgi ise web serverin kodunuzu basa dusmeyi ucun vesaitdir.
 5. http request brauser ve serverin tekterefli elage sistemidir.
 
+
+
+
+
+
+Flask Research:
+
+Flask bir Python frameworkudur ve bize coxlu packageler vermesi ile meshurdur.
